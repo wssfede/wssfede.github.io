@@ -3,66 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Scolastico Elettronico</title>
-    <link rel="stylesheet" href="/registro/styles.css">
+    <title>Registro Scolastico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50; /* Colore di sfondo per l'intestazione */
+            color: white; /* Colore del testo per l'intestazione */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Colore di sfondo per le righe pari */
+        }
+
+        tr:hover {
+            background-color: #ddd; /* Colore di sfondo al passaggio del mouse */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50; /* Colore di sfondo per i pulsanti */
+            color: white; /* Colore del testo per i pulsanti */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Colore al passaggio del mouse sui pulsanti */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Registro Scolastico Elettronico</h1>
-    </header>
-    
-    <main>
-        <section class="student-list">
-            <h2>Elenco Studenti</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Cognome</th>
-                        <th>Classe</th>
-                        <th>Media Voti</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mario</td>
-                        <td>Rossi</td>
-                        <td>3A</td>
-                        <td>8.5</td>
-                    </tr>
-                    <tr>
-                        <td>Luca</td>
-                        <td>Bianchi</td>
-                        <td>3A</td>
-                        <td>7.8</td>
-                    </tr>
-                    <tr>
-                        <td>Sofia</td>
-                        <td>Verdi</td>
-                        <td>3B</td>
-                        <td>9.0</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
 
-        <section class="add-student">
-            <h2>Aggiungi Studente</h2>
-            <form id="studentForm">
-                <label for="firstName">Nome:</label><br/>
-                <input type="text" id="firstName" name="firstName" required><br/>
-                
-                <label for="lastName">Cognome:</label><br/>
-                <input type="text" id="lastName" name="lastName" required><br/>
-                
-                <label for="class">Classe:</label><br/>
-                <input type="text" id="class" name="class" required><br/>
-                
-                <label for="grade">Media Voti:</label><br/>
-                <input type="number" id="grade" name="grade" step="0.1" required><br/><br/>
+<h1>Registro Scolastico</h1>
 
-                <button type="submit">Aggiungi Studente</button>
-            </form>
-        </section>
+<table id="registro">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Classe</th>
+            <th>Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mario</td>
+            <td>Rossi</td>
+            <td>1A</td>
+            <td><button onclick="rimuoviStudente(this)">Rimuovi</button></td>
+        </tr>
+        <tr>
+            <td>Lucia</td>
+            <td>Bianchi</td>
+            <td>1B</td>
+            <td><button onclick="rimuoviStudente(this)">Rimuovi</button></td>
+        </tr>
+    </tbody>
+</table>
 
-    </main>
+<h2>Aggiungi Studente</h2>
+<form id="formStudente" onsubmit="aggiungiStudente(event)">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="text" id="cognome" placeholder="Cognome" required>
+    <input type="text" id="classe" placeholder="Classe" required>
+    <button type="submit">Aggiungi Studente</button>
+</form>
+
+<script>
+    function aggiungiStudente(event) {
+        event.preventDefault();
+        
+        const nome = document.getElementById('nome').value;
+        const cognome = document.getElementById('cognome').value;
+        const classe = document.getElementById('classe').value;
+
+        const tabella = document.getElementById('registro').getElementsByTagName('tbody')[0];
+        
+        const nuovaRiga = tabella.insertRow();
+        
+        nuovaRiga.innerHTML = `
+            <td>${nome}</td>
+            <td>${cognome}</td>
+            <td>${classe}</td>
+            <td><button onclick="rimuoviStudente(this)">Rimuovi</button></td>
+        `;
+        
+        document.getElementById('formStudente').reset();
+    }
+
+    function rimuoviStudente(button) {
+        const riga = button.parentNode.parentNode;
+        riga.parentNode.removeChild(riga);
+    }
+</script>
+
+</body>
+</html>
