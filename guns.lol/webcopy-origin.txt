@@ -1,0 +1,92 @@
+Uri: https://guns.lol/.cxc
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\.cxc.html
+Content Type: text/html
+
+Uri: https://guns.lol/_next/static/chunks/1488-68701d1be436942c.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\1488-68701d1be436942c.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/1898-f24eebdd22a915e0.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\1898-f24eebdd22a915e0.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/2117-fb16c9c5c0cb7705.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\2117-fb16c9c5c0cb7705.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/2972-3c247e65277a67e8.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\2972-3c247e65277a67e8.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/3719-48caaf1a376400f4.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\3719-48caaf1a376400f4.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/3766-c4d5f5c8b51f6b49.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\3766-c4d5f5c8b51f6b49.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/47-62f747fd61a399d6.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\47-62f747fd61a399d6.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/4942-1d681247d9b05394.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\4942-1d681247d9b05394.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/5905-1c81ef4ee5abe841.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\5905-1c81ef4ee5abe841.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/7213-275a6e2c893ed645.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\7213-275a6e2c893ed645.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/8003-eab033a3899727e4.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\8003-eab033a3899727e4.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/816-8da4fb060cbd3a16.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\816-8da4fb060cbd3a16.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/989-1ecdd5b2beee650c.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\989-1ecdd5b2beee650c.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/app/[username]/page-da0f292d50482105.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\app\[username]\page-da0f292d50482105.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/app/layout-ea326ffe687c83bc.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\app\layout-ea326ffe687c83bc.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/app/not-found-aa95ab45dd0608db.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\app\not-found-aa95ab45dd0608db.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/fd9d1056-e8c51e3d6e9b9f8c.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\fd9d1056-e8c51e3d6e9b9f8c.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/main-app-f8a78923f55fe5a6.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\main-app-f8a78923f55fe5a6.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/polyfills-42372ed130431b0a.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\polyfills-42372ed130431b0a.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/chunks/webpack-6680f818ec121dfb.js
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\chunks\webpack-6680f818ec121dfb.js
+Content Type: application/javascript
+
+Uri: https://guns.lol/_next/static/css/005225d0ec675b50.css
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\css\005225d0ec675b50.css
+Content Type: text/css
+
+Uri: https://guns.lol/_next/static/css/a914e19466e67419.css
+File Name: C:\Users\Admin\Desktop\ezzggg\guns.lol\_next\static\css\a914e19466e67419.css
+Content Type: text/css
+
